@@ -33,8 +33,6 @@ $env:DISPLAY = 'localhost:0'
 $env:OPENAI_API_KEY = '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'
 
 # set alias `prj` to $HOME/OneDrive - MerckGroup/Documents/Projects/
-function to_proj {
-    cd $HOME/"OneDrive - MerckGroup"/Documents/Projects/
-}
-
-Set-Alias prj to_proj
+$prj = "$HOME/OneDrive - MerckGroup/Documents/Projects/"
+$dsktp = "$HOME/OneDrive - MerckGroup/Desktop/"
+$dlds = "$HOME/Downloads/"
