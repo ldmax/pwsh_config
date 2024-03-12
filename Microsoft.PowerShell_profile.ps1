@@ -36,3 +36,7 @@ $env:OPENAI_API_KEY = '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'
 $prj = "$HOME/OneDrive - MerckGroup/Documents/Projects/"
 $dsktp = "$HOME/OneDrive - MerckGroup/Desktop/"
 $dlds = "$HOME/Downloads/"
+
+function Aliyun {
+  ssh root@47.243.6.189
+}
