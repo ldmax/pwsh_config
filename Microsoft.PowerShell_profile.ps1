@@ -13,7 +13,7 @@ Write-Host ''
 oh-my-posh init pwsh --config "$env:PROFILE_HOME\PoshThemes\emodipt-extend.omp.json" | Invoke-Expression
 
 # neovide
-Set-Alias neovide "C:\Users\M310131\Software\neovide-windows\neovide.exe"
+Set-Alias neovide "C:/Users/m310131/scoop/apps/neovide/0.12.2/neovide.exe"
 
 # lvim
 Set-Alias lvim "C:\Users\M310131\.local\bin\lvim.ps1"

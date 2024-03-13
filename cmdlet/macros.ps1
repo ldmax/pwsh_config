@@ -30,4 +30,7 @@ Function download {
   scp m310131@nxuser:~/tmp/$remote_regex .
 }
 
-
+Function touch {
+  Param ($file_name)
+  New-Item "$file_name"
+}
