@@ -34,3 +34,8 @@ Function touch {
   Param ($file_name)
   New-Item "$file_name"
 }
+
+Function get_back_test {
+  Param ($remote_regex)
+  scp root@47.243.6.189:/root/projects/neutral_strategy_framework/neutral_strategy_framework/neutral_strategy_backtest_framework/data/$remote_regex .
+}
